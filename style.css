@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+
+body{
+    background-color: #1f2833;
+}
+
+
+a{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color:teal;
+}
+
+h3{
+    color:turquoise;
+}
+
+
+.header 
+{
+    color: #66fcf1;
+}
+
+
+p{
+    color: white;
+}
+
+div{
+    background-color: #0b0c10;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#div-1{
+width: 50%;
+}
+
+#div-2{
+    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
