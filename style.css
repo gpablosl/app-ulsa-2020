@@ -5,7 +5,7 @@ body{
     background-color: #1f2833;
 }
 
-a, ul{
+a, ul,p{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -28,7 +28,7 @@ h3{
 }
 
 .header{
-    color: #66FCF1
+    color: #FBB117
 }
 
 div{
