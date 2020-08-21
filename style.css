@@ -1,53 +1,115 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
 
-body{
-    background-color: #1f2833;
+h1{
+color: black;
 }
 
-a, ul,p{
-    color: white;
+body{
+    background-color: #c6ccca;
+    margin: auto;
+}
+
+p{
+    color: black;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    margin: auto;
+    
 }
 
+p{
+    color: #fce9e2;
+}
+ul,a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: auto; 
+}
 .sub-category{
-    color: yellow;
+    color: #fce9e2;
 }
 
-h1{
-    color: red;
+li{
+    background: #9ea0a3;
 }
-
-h2{
-    color: green;
-}
-
-h3{
-    color: blue;
-}
-
 .header{
-    color: #FBB117
+    color: white
 }
 
 div{
-    background-color: #0b0c10;
-    color: #c5c6c7;
+
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 14;
+    margin: auto;
+    
+}
+
+#div-t{
+    background-color: #445c7c;
 }
 
 #div-1{
-    width: 30%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 150%;
 }
 
 #div-2{
-    width: 50%;
+    background-color: #555464;
+    color: #fce9e2;
+    width: 100%;
+    margin: auto;
+}
+#div-23{
+    background-color: #555464;
+    color: #fce9e2;
+    width: 97%;
+    margin: auto;
 }
 
-@media only screen and (max-width: 600px){
+.animalito{
+    width: 500px;
+}
+
+.header:hover{
+    background-color: #fff;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+@media only screen and (max-width: 700px){
     body{
-        background-color: #fff;
+        background-color: #c6ccca;
+    }
+
+    #div-1{
+        width: 80%;
+        text-align: center;
+        font-size: 100%;
+        font-weight: bolder;
+    }
+    .header{
+        float: none;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 80%;
+        color: black;
+    }
+    .header:hover{
+        background-color: black;
+        color: white;
+        transition: background-color 0.5s ease;
+    }
+    .animalito
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 }
