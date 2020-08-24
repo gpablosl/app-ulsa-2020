@@ -110,6 +110,11 @@ div{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width:400px;
+    }
+
+    #meme-image
+    {
+        width: 400px;
     }
 }
